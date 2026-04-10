@@ -81,6 +81,7 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta name="apple-mobile-web-app-title" content="AfroCinema" />
+        <meta name="google-site-verification" content="av6-7gzLnZrfn9Y-3kX5BWkN8IcwC1SkskaCCXapT7I" />
       </head>
       <body className="min-h-screen bg-background text-foreground antialiased">
         <GoogleAnalytics />
