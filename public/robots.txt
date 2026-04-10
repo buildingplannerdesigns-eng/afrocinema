@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://afrocinema.vercel.app/sitemap.xml
