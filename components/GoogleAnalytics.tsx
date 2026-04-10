@@ -16,6 +16,7 @@ export default function GoogleAnalytics() {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', '${GA_ID}');
+          console.log('[GA] Google Analytics initialized with ID: ${GA_ID}');
         `}
       </Script>
     </>
