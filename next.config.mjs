@@ -24,6 +24,12 @@ const nextConfig = {
     ],
   },
   trailingSlash: false,
+  async rewrites() {
+    return [
+      { source: '/sitemap.xml', destination: '/sitemap' },
+      { source: '/test.xml', destination: '/test' }
+    ];
+  },
   async headers() {
     return [
       {
